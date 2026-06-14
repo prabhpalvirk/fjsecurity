@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.fjsecuritysolutions.com.au/</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://fjsecuritysolutions.com.au/</loc>
+    <lastmod>2026-06-14</lastmod>
   </url>
   <url>
-    <loc>https://www.fjsecuritysolutions.com.au/#about</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://fjsecuritysolutions.com.au/services.html</loc>
+    <lastmod>2026-06-14</lastmod>
   </url>
   <url>
-    <loc>https://www.fjsecuritysolutions.com.au/#services</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://fjsecuritysolutions.com.au/cctv-installation.html</loc>
+    <lastmod>2026-06-14</lastmod>
   </url>
   <url>
-    <loc>https://www.fjsecuritysolutions.com.au/#areas</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://fjsecuritysolutions.com.au/alarm-systems.html</loc>
+    <lastmod>2026-06-14</lastmod>
   </url>
   <url>
-    <loc>https://www.fjsecuritysolutions.com.au/#contact</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://fjsecuritysolutions.com.au/intercom-installation.html</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://fjsecuritysolutions.com.au/wifi-data-cabling.html</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://fjsecuritysolutions.com.au/service-areas.html</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://fjsecuritysolutions.com.au/logan.html</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://fjsecuritysolutions.com.au/brisbane.html</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://fjsecuritysolutions.com.au/gold-coast.html</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://fjsecuritysolutions.com.au/about.html</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://fjsecuritysolutions.com.au/contact.html</loc>
+    <lastmod>2026-06-14</lastmod>
   </url>
 </urlset>
