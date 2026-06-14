@@ -1005,6 +1005,15 @@ strong {
   margin-bottom: 0.6rem;
 }
 
+.section-dark .process-step h3,
+.section-dark .process-step strong {
+  color: var(--color-text);
+}
+
+.section-dark .process-step p {
+  color: var(--color-text-soft);
+}
+
 .process-step .step-number {
   display: inline-flex;
   width: 2rem;
