@@ -1,0 +1,120 @@
+FJ SECURITY SOLUTIONS: IMAGE GENERATION PROMPTS
+==================================================
+
+These prompts are for a FUTURE reshoot or AI-image regeneration once the
+real FJ Security Solutions logo and final brand palette are available.
+The site currently ships with the ORIGINAL photos from the live site
+(backed up in the project root as *-original.webp, reprocessed into the
+responsive WebP files actually used on the pages): these prompts are not
+needed for launch.
+
+Every prompt below shares one consistent lighting and colour-grade
+instruction so the finished set reads as a single photoshoot rather than
+seven unrelated stock images:
+
+  SHARED STYLE: Natural late-afternoon Queensland daylight, warm but
+  slightly desaturated colour grade (soft golden-hour warmth without
+  looking artificially orange), realistic ambient shadows, shot on a
+  35mm-equivalent lens at f/4-f/5.6 for natural depth of field. No
+  visible competing brand names, logos, or model numbers on any
+  equipment: generic dome/bullet camera shapes and unbranded alarm
+  keypads only. Incorporate FJ Security Solutions brand colours (once
+  the logo is supplied and the palette is sampled from it) into
+  technician workwear, vehicle signage, or equipment accents where
+  natural to the scene.
+
+Keep filenames identical to what's already in the project root so a real
+photo or regenerated image drops straight in with zero code changes.
+
+--------------------------------------------------------------------
+1. HOMEPAGE HERO: guy-on-ladder-installing.webp (landscape 16:9)
+--------------------------------------------------------------------
+A tradesperson on a small aluminium ladder installing a white dome CCTV
+camera under the eave of a single-storey Queensland brick veneer home,
+Colorbond roof visible, a gum tree softly out of focus in the
+background, suburban Logan street setting. [SHARED STYLE]. Landscape
+16:9.
+
+--------------------------------------------------------------------
+2. CCTV SERVICE PAGE: security-camera.webp (square/4:3)
+--------------------------------------------------------------------
+Close-up product-style shot of a white dome CCTV camera mounted on a
+brick wall under an eave, angled down toward a driveway, shallow depth
+of field with the driveway and a parked car softly blurred behind it.
+No visible brand markings on the camera housing. [SHARED STYLE]. 4:3.
+
+--------------------------------------------------------------------
+3. ALARM SYSTEMS PAGE: guy-setting-up-wizard.webp (square/4:3)
+--------------------------------------------------------------------
+A technician's hands programming a wall-mounted alarm keypad just
+inside a home's front entry, warm interior lighting mixing with
+daylight from a nearby window, modern Australian home interior with
+timber-look flooring. Unbranded keypad unit. [SHARED STYLE]. 4:3.
+
+--------------------------------------------------------------------
+4. INTERCOM PAGE: intercom.webp (4:3)
+--------------------------------------------------------------------
+A video intercom unit mounted on a rendered brick pillar beside a
+driveway gate, low-set Queensland home visible behind a low fence,
+afternoon light, no visible gate-motor or intercom brand markings.
+[SHARED STYLE]. 4:3.
+
+--------------------------------------------------------------------
+5. WIFI & DATA CABLING PAGE: wifi-and-data.webp (4:3)
+--------------------------------------------------------------------
+A neatly organised small home network cabinet with structured cabling
+terminated into an unbranded patch panel, cables labelled and bundled
+tidily, shot inside a hallway cupboard with a soft work light. [SHARED
+STYLE]. 4:3.
+
+--------------------------------------------------------------------
+6. ABOUT PAGE: fj-team.webp (4:3)
+--------------------------------------------------------------------
+A technician standing beside a work vehicle in a Logan driveway,
+tool belt and CCTV equipment case visible, mid-shot, confident but
+approachable posture, brick home and Colorbond fencing in the
+background, gum trees along the street. Vehicle signage left
+intentionally blank for FJ Security Solutions branding once supplied.
+[SHARED STYLE]. 4:3.
+
+--------------------------------------------------------------------
+7. LOGAN LOCATION PAGE: logan-install.webp (16:9, new slot)
+--------------------------------------------------------------------
+A technician running cable along the eave line of a brick veneer home
+on a larger newer-estate block, long driveway stretching toward the
+street, Colorbond fencing, a mix of established and freshly planted
+gum trees, typical southern-Logan growth-corridor streetscape.
+[SHARED STYLE]. Landscape 16:9.
+
+--------------------------------------------------------------------
+8. BRISBANE LOCATION PAGE: brisbane-install.webp (16:9, new slot)
+--------------------------------------------------------------------
+A CCTV camera being installed under the eave of a high-set timber
+Queenslander with exposed under-house stumps, timber steps to the
+front door, hills-hoist and established garden visible, classic inner
+Brisbane character-home streetscape. [SHARED STYLE]. Landscape 16:9.
+
+--------------------------------------------------------------------
+9. GOLD COAST LOCATION PAGE: gold-coast-install.webp (16:9, new slot)
+--------------------------------------------------------------------
+A technician installing a CCTV camera at the entry of a modern two-
+storey home within a gated Gold Coast estate, Colorbond fencing and
+low-maintenance landscaping, high-rise towers visible as a soft,
+out-of-focus backdrop in the distance to signal the broader Gold
+Coast setting. [SHARED STYLE]. Landscape 16:9.
+
+--------------------------------------------------------------------
+NOTES
+--------------------------------------------------------------------
+- Slots 7-9 (logan-install.webp, brisbane-install.webp,
+  gold-coast-install.webp) are new filenames not present on the
+  current live site: add them to the project root and wire them into
+  logan.html / brisbane.html / gold-coast.html in place of the
+  borrowed hero images those pages currently use, once generated.
+- Regenerate hero images first (slots 1, 7, 8, 9) since they carry the
+  most weight for first impressions and Core Web Vitals (largest
+  contentful paint).
+- After regenerating any image, re-run the resize pipeline
+  (Pillow-based, see project notes) to produce the 480w/768w and
+  native-width WebP variants before replacing the files in the project
+  root.
